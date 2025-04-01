@@ -318,3 +318,20 @@ int main(int argc, char **argv)
     rclcpp::shutdown();
     return 0;
 }
+
+
+/*
+cases start and goal position:
+Random Scene Case 1:
+-Start: 0.15, -0.4, 0.5
+-Goal: -0.3, 0.3, 0.2
+Random Scene Case 2:
+-Start: -0.2, -0.4, 0.5
+-Goal: 0.45, 0.4, 0.2
+Three Cylinder Scene:
+-Start: 0.45, -0.2, 0.6
+-Goal: 0.45, 0.2, 0.2
+Two Window Scene:
+-Start: 0.3, 0.0, 0.3
+-Goal: 0.7, 0.1, 0.4
+    */
