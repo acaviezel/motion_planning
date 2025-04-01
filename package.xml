@@ -4,7 +4,7 @@
   <name>motion_planning</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="jerryliu.90010@gmail.com">pinliu</maintainer>
+  <maintainer email="andricaviezel00@gmail.com">acaviezel</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
