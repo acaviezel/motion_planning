@@ -139,9 +139,9 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 ## How to run the demo code
 Note: Right now, the code only works with a real robot.
 
-After sourcing the workspace, change the working directory to `motion_planning_mt`
+After sourcing the workspace, change the working directory to `motion_planning`
 ```
-cd src/motion_planning_mt
+cd src/motion_planning
 ```
 Launch the moveit environment and the RMP controller.
 ```
@@ -150,12 +150,12 @@ ros2 launch franka_moveit_config moveit.launch.py robot_ip:=<fci-ip>
 
 Run the scene node, which populates three cylinders (adjustable).
 ```
-ros2 run motion_planning_mt cylinder_scene
+ros2 run motion_planning cylinder_scene
 ```
 
 Run the distance calculator node, which calculates the distance between the closest obstacle and each robot link.
 ```
-ros2 run motion_planning_mt distance_calculator
+ros2 run motion_planning distance_calculator
 ```
 
 To visualize the obstacles and the minimum distance in RViz, add two ROS2 topics. In displays panel, click "Add" button on the lower left corner.
