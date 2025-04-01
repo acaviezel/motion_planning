@@ -109,7 +109,7 @@ Also in the `franka_moveit_config` package, modify the `moveit.launch.py` launch
     'publish_robot_description_semantic' : True,
   }
   ```
-2. Load cartesian impedance controller instead of fr3_arm_controller.
+2. Load riemannian_motion_policy instead of fr3_arm_controller.
   ```python
   # Load controllers
   load_controllers = []
